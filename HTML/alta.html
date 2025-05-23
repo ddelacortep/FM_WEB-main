@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta</title>
+    <link rel="stylesheet" href="../CSS/index.css" class="">
+    <link rel="icon" type="image/png" href="/Web/FOOTBALL MANAGER/IMG/Disseny_sense_ti╠ütol__1_-removebg-preview.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Carga de las fuentes Montserrat y Ubuntu -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body id="portadaA">
+
+    <header>   
+        <img  href="../index.html" class="logoFM" src="../IMG/Disseny_sense_títol__1_-removebg-preview.png" alt="">
+        <h2 class="cabezal"><a href="../index.html"> FOOTBALL MANAGER</a></h>
+        <div class="botons">
+            <a href="index.html" class="boton">Inici</a>
+            <a href="estadistiques.html" class="boton">Estadístiques</a>
+            <a href="equips.html" class="boton">Equips</a>
+            <a href="classificacio.html" class="boton">Classificació</a>
+        </div>
+    </header>
+
+    <div class="formulari">
+        <div class="formularis">
+            <form action="">
+                <label for="txtJugador">NOM I COGNOMS</label>
+                <input type="text" name="txtJugador" id="txtJugador">
+                <br>
+                <label for="numAlçada">ALÇADA (cm):</label>
+                <input type="number" name="numAlçada" id="numAlçada">
+                <label for="numPes">PES (kg):</label>
+                <input type="number" name="numPes" id="numPes">
+                <br>
+                <label for="dataNaixement">DATA NAIXEMENT:</label>
+                <input type="date" name="dataNaixement" id="dataNaixement">
+                <br>
+                <label for="imgPersona">IMATGE PERSONA:</label>
+                <input type="file" name="imgPersona" id="imgPersona">
+                <br>
+                <label>JUGADOR</label>
+                <input type="radio" name="rol" value="jugador" onclick="mostrarMenu()">
+                <label>ENTRENADOR</label>
+                <input type="radio" name="rol" value="entrenador" onclick="ocultarMenu()"> 
+                <br>
+                <div id="menuDesplegable" style="display: none;">
+                <label for="posicio">POSICIÓ:</label>
+                <input type="checkbox">   
+                <label for="">Devanter</label>
+                <input type="checkbox">   
+                <label for="">Porter</label>
+                <input type="checkbox">   
+                <label for="">Defensa</label>
+                <input type="checkbox">   
+                <label for="">Migcampista</label>
+                </div>
+                <div id="desplegableEquips"></div>
+                <button id="enviar" type="submit">ENVIAR</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>    
+        <div class="imagen">
+            <img class="CEP" src="../IMG/59aa72b5-aa9f-4562-a573-c023f86433d5.png" alt="">
+        </div>
+    </footer>
+    
+    <script src="../JS/Main.js"></script>
+    <script src="../JS/mainDesplegable.js"></script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+* {
+    font-family: 'Ubuntu', 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #4682B4;
+    height: 90px;
+    width: 100%;
+    z-index: 1; /* Asegura que el header esté por encima del contenido */
+    position: relative; /* Cambiado a fixed para que el header permanezca en la parte superior */
+    top: 0; /* Fija el header en la parte superior */
+    left: 0; /* Alinea el header a la izquierda */
+}
+
+.cabezal {
+    width: 330px;
+    display: flex;
+    padding: 30px 30px;
+}
+
+.botons {
+    display: flex;
+    font-size: 20px;
+    justify-items: right;
+    right: 20px;
+    position: absolute;
+    width: 550px;
+    justify-content: space-around;
+}
+
+.boton {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#personas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.equips {
+    display: flex;
+    height: 100px;
+    margin-top: 200px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+img{
+    transition: transform 0.3s ease; 
+    overflow: hidden;
+}
+img:hover {
+    transform: scale(1.1); 
+}
+.equip img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#titulo{
+    margin: 30px;
+}
+.jugadorsDiv{
+    display: flex;
+}
+.jugadorsDiv img{
+    height: 150px;
+    max-width: 100px;
+    border-radius: 10px;
+}
+
+/* Jugadores Cartas */
+
+#principalCartas{
+    margin-top: 60px;
+    display: flex;
+    gap: 140px;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 97%;
+    justify-content: center;
+}
+.carta{ 
+    border-radius: 10px;
+    display: flex;
+    background-color: hsla(0, 39%, 89%, 0.5);
+    flex-direction: row;
+    height: 210px;
+
+    }
+.carta img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.textoCarta{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+.textoCarta strong{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    order: -1;
+}
+.cartaEntre{
+    display: flex;
+    justify-content: left;
+    height: 210px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: hsla(0, 39%, 89%, 0.5);
+    padding: 5px;
+}
+
+.cartaEntre img{
+    float: left;
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+.textoEntre{
+    padding: 10px;
+}
+
+body{
+    background-image: url(https://www.appartcity.com/uploads/media/image_page_content/0001/29/image_page_content_w1440/28473_stade-foot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+}
+#titEnt{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin: 30px;
+    font-family:'Poppins' ;
+    font-weight: 500px;
+}
+
+.entrenador {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+table{
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+th, td{
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+th{
+    background-color: #007bff;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #ddd;
+}
+.jugTab{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #007bff;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* Footer Plantilla*/
+.CEP {
+    height: 50px;
+}
+    .imagen {
+        display: grid;
+        grid-column: 1;
+    }
+    .alta {
+        display: grid;
+        padding: 5px;
+        grid-column: 10;
+        background-color: yellow;
+        text-align: center;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 40px;
+        align-items: end;
+        background-color:#4683b4af;
+    }

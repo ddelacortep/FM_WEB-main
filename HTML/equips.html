@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equips</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="icon" type="image/png" href="/Web/FOOTBALL MANAGER/IMG/Disseny_sense_ti╠ütol__1_-removebg-preview.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Carga de las fuentes Montserrat y Ubuntu -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body class="equipsPagina">
+    <header>
+            <img href="../index.html" class="logoFM" src="../IMG/Disseny_sense_títol__1_-removebg-preview.png" alt="">
+            <h2 class="cabezal"><a href="../index.html"> FOOTBALL MANAGER</a></h>
+                <div class="botons">
+                <a href="../index.html" class="boton">Inici</a>
+                <a href="../HTML/estadistiques.html" class="boton">Estadístiques</a>
+                <a href="../HTML/equips.html" class="boton">Equips</a>
+                <a href="../HTML/classificacio.html" class="boton">Classificació</a>
+            </div>
+    </header>  <div class="fotoEst">
+        <img src="https://mas10.ar/wp-content/uploads/2024/03/DZX3qx7X4AIIP4Q.jpg" class="imgEst">
+        <div class="botEst">
+            <button class="best">Equips</button>
+        </div>
+    </div>
+
+    <div id="escuts">
+        <div class="escut">
+            <img id="FC Barcelona"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN8AAADiCAMAAAD5w+JtAAABklBMVEX////tuwAATZjbADAAAAClAET/7QLxvgAAUJzbrQCnAEL1wQD/9gDZADL/8AD2wgDgOSv4yhLqhyKLG1nqgSGhBkfkADKOGFbeMi7aACLZABbrkJz20dXsmKP0xMrb29u0jgC8lAC+AisJFSfjswAAAAjMoQAYIC/CmQAbAAoUAArQ0NDv7++shwCWdgDntgC0tLTo6OjCwsKdnZ2hgQNERER0dHSpqamZmZlXRwI2NjYUFBR/f39eTAIkHgElJSVZWVmAZwNzXQNJNwAYHAArLAAvJQAAPHgARYhoaGgrKyuLcAMbFwE5LwIAABReXl4lJwAQDQAAHU1sVAAAAB2pACVPABNGMgAkEwBuaAFJTVXezwFuABqEfAGrnwFqZAEAF0UALGKIADhLACJzADAAAC4AACQzABpeAChJQAA0AA5XABQmAAxDPQDOvwF+ABwAFACaACKQhwEhDiO0JyVOKA1YVgA3PEZlMhCckgFONEHmb3/jVmnLfIZqAAC8ABich4zTs7fAswFtFEcAH0E2BCnYK+qSAAAY7UlEQVR4nO1djXvTRppHMGUsFDLb3kK33d2LTYVqmkhOgvPhEIfYLk7AccA4fC2UEj5KuYW227vrXm/vbu963P998ymNpJE0kh3s9OH3PH1KbGk8P83M+zXvvDpx4j3e4z1+JVicghaODgsrYGNppBaWNkZt4QixBgjWRmjhMm1hfWw9GifmNgDDStEB8Fu4sjzWno0DS9dBgGIDsCm1sDI/5v6NhqVVEEZ+KbEWaWGKGM5vi071jCb/1418U2xRtNB1huKfN0ZZyRlYX53TvHJp/YroUN9BBnLFXxv6DIOx60GIysEgrmoP4uJl7V/DmCeP73K2nJhb3wg6U7egYRiWLYYQXNH6zaVg3fUdC7cAjZ40TzezKS4sksWfZz6LDm4uJ3OcW5NFCp6apG8EqLrlf3o9YxAXFleCJlwEWQuW3Zab3r6c3PeFZf8R69PbDrW+uTY/tyC1uDS/uL56A4TQqwl2ZABgXfpqdXEh4WeW1uQf6hkwaAKZrfAPXL2+vjgfaoh04+YV6ZJtXXqXgRJXb9y4ekX1Rcc1JHZ0AAwvdOfmYmQ5L8yHRz/8gGgTtXpX2YuNlZWNq8oOasqjOXrxlrKJOLo9E0EjBsuoR1tYubm5ub6+ubm6vRH5ZqsefUB0GiCntafZC/ZbeoYFu8M23EZmsw3PtCwFO9o9q9rMbICgWU1uAjq9Nzq9QPSnrurQu0nvqUD8/IxKr5PU6F7TqxoIhnsW/hNatcxn1HRr4eGPcIUWMqpeM2kct/xeDMifm9n0mC7qIdE6NCteu9nfGogW+822V3ZqyILRp44nVDkyV8kzavUTOtdvVYzI9VhyOig+jBaqOWWvPex0aT8GW93OsBXqBXRok5k6d4le9kr6DQhJ++KxYsaWFadGqZjY9HhlRruH76hV6+2GvBy7jVbdMVB0XlpY8/0TaEdFTdANi/KBohPy7RaTaEmyWoAKyIGi/QzgsWuCP1849QgM7dgA8B7VTNNxHNOsWcpHRITu6wvnH76SdGkOoFek6yvp9Jid7CSs90RyllV+g9mdP3Xq/IW7oG2rJCrjCVVDT5vA7L64g1uYnfnuGlYXSU0ko0b7nmozMTPXzfX08NCY2KD6/izuGwFh2HTydQ8Sff76Dm1h9jRm+AZL1dj0zWqkSnufZqet0yuq2u2SNeH0boG7d85zdozhI9B1oW738IWVDrh7gbcwe/o0ZvjwK/BDz0lUPsp2zGwRsx1eftFFHKaGkOm2B+DuX85K5Cg++f3aPhjqjABuxcHG5o+nfyPuJfwIw1N37oJB2zWRQlLLDQT/6mariAX6CIZcQsBhr141DUyEiSsGKsYMp0x04z8/unMqSo7w+yP2QfBablfiQjLEzahicl9/NzMzE+F3ehbPg1N3Hl3C5l/LdWqQ9sEKuoA7gfAisJ0abw1Ri/VGKr0TJ5blGQrL4K/7+M/795rtlufVCTyvNWzcxx9+fh2b9f/4aZwc50cawxTv9apYS4XnAVM5tWoPi7z2L6dnMCUVPzLVz5/9l8cPrlFtifvQ83Av8H+9VnvY7FCNsycUF1OAmSbaTfkm1F8nhvry2vrm6s0/MVzfXL+8LEz5dH4Yc5dJg42eW2VqgcA2q26v+QPAM/vCqQ9nKJ0Efhi/w4M7e/rhL+733z/6812Mf/3pp68ffPXjz49/+eXhQ19YWN1M6SnN0J4lHkq6wszkR7C0fPk6nQdkbbP/vfm37++cPY+F0tkPZzP5sfWI8GBSfDRDMEsw86DBl5JFXbKNTHrCQDP5ADZWR+cnntzS3NwiePjwIWYz81t+pS6/07PoLP/gI/YB+ewhMPnwMeWnFVSh3kuTG6Bm+ozOw49gDuCnTuiMhd/MA95NA7U1zesTwv/jNgxqpg5gAX6sZ+PgN3taDB9XfVr0TpygnjWf2BkrcKL8Zr4Sq4+5f7rxxIXQAN5Li0ZPlN9p0UemG65o0uORcjGAlbRhnyS/2cf3xfDRmLB+zDw8gGk3TpLfzA8uF55mvuHjA9hmOtDy/jSV/LBy4OaQ1co3fMKL55adnSJhJshv5sFQ+HF5hCcDFaFetoSZ5Pj5VrKrZ5nJmKdREm6kuZ9PIb/Z7wAfPtTJPXwnTlyVJEwt2YaZHL+ZB1w+MOmSbkbGQa3QlsW9iETNOcHxIyFaJv+yohIqUBWxx1VgsgSdGD8sPX0frsD05JEKNkGxeTB9/H7uIGl65t/xp6E0j0/QxOGfGL+Zn7h0Z3txurvNAegE5c/IaiQ9n8mNnxB+1rDQ9ORuoMEX4L//Xo2/faLkd+o/Eq7/zzHxC5YfLCI9CdaDQBOsgk8SoKaHR1CNv4+L3+Ou74DntM0E5iUTpgbOnhoLLoyJ38xXbWF8kG5m7aooQcMUXMD8cGfK+L2pQ8m2LkLvBEkh2OL8Xv1FEcWdJD9hfFLj7HohfquBgLFaj6aL32lgS+Iln20tsCZpeO/uVPHD4tMSzhvQ2LVVgobqy4xf+dJ08fsF+OEvnaC8EtTJrQsFMV38Ht/j/MqFxQsToCxQj7XMWOiNjd/PXLAz62wEflzN2GNSgGPi56s/q6e566DC1UABjkvBj4vfA+6aUvWXkVOQCGKBNricAhemit/XfIPLIvsONwvyI6mLr/g8nzJ+wjui3kMR6/q48Gu+56fDz5gy+RKan8XMz5B8mTb5GZIv2wX5EQdiOJ36byz6IQiBTpv9EtbvWTkvafy4fTZt9uc47DNqX7vT6T+Mw76mAZjKdPp/34X8o/zRTwIa4WUJClbrvz5VIil+9on68k/HFD8bi39LN3F5lKPx339Q4o9qgp/8TX35H/7nSOITxc7jrQRbgCjpEU0qfh3El/qFDWwQqD8jKQQwMX5+fLBdVMDMBfHd5A2kifHz47v1ogEYOXzm/nXK+M0+7ssCtEh8flsKf7aTMtcmxs/fXzGK7q9I+2PoftIDmvz+GDv2kJ/esrS/mSheJri/6QsYr5iG35SWX+Vi0lWTG78fhQXqFNOA5C4gnJBED3Jy/ISFxjR8nuQzimUp+Jm8/CaZv+RvULeLTNCbwe5tWgLaBPN7XokEgwrpql5qsg+WISkyFKYyP0vsUBdJr2Ob7yJ9qTON+XVYA9qGNEHzqXgQSE/8fJIn9yTzI69xDcHOjeXahKCun7CA3M+SL5xkfqQ/QS16UCdPBtrVIDSROj0nys8/HcBU/LY+vWVJuqRlR044//onHgTNc3iF4kYQOTOgl+Q7TJqfv0nNJcy2Lj12SpVnX6NBmmSa7PkVkQLKj6/oDiCQlENKbiTjd16FRH5LYIbht+LSD/kHvxEf8L9nxN+/439/KD74SFwx8/O90PkVzTg2K68hlEtz/7MUHICLKoCDz9X4DHxJcevSFxx7t9gH+J+XKG5xXOJ4fY1h69JrikuXrvkIH2DRi6MtyMOHrZ9qJQfKo8PliP6thFDRqKFtZV+XVx8/sj69EL1kA6iRyESj1r5jmw/q3w6+tVTnvdNu0Qc7gqSRSEgLNOwV+iGzUq1WpMlTk7+EluO1Wi03WtsA8nPLdXKHspSMHmggO1tHsGJP5SI/A6XCVxSm1AqqiPoajXCBEBi6pV+NF6/Qg9XTETHs7Gaj0I+k8UNywaiW3LwVuckrShCyGjEaszP04MfCD4WrRQ0lDlF+OapDRH6elZ9IjdWz8iHFhEsKPy7dArgBhxi/TtEBZEo+zRFkdnW/4A8wfljGCPjyhZ2AAl4NGaxyWD3Cr1uzCdgoF6QnzOxkGboUnVZF+NUUwp6Zh1SuWDbmKVc6Y/zoI4WInv43i/LjEyjR02U12+rFZmeYX/gLOmi8qgw0w+WHOD9auKE22vgJJZgQa2KGSzHZSXtO+VUdgtAYsCMmYrZGay6R7/a8HsHeaB3AYDJUqSRYXYYCpZcEZPnSk8cIkdIXewndjsmXvMWRQl3ggkzhkc+P3HoiPyttWKL8eqMMHy+zoTC0mddQfPEZ4+I30vj5SiLmCjLF3h7l4aXzS1JrMX4jrBAKVpUxsiPIqnB2Rhg9wc+lbmBoEBiFNH4DZNSwCmQPyBtpAKHNHlPIVWKic6uWfXtay7L+k79g6l1QjigPmTyiWwlF7QvRDS5jJCHKK8QWVeyiYcrPjn/BzkDxUi2WW0FJg8vjRKPxMyy+TvyAL3MaQHnEdhP58SfaI7wsTKFhSuuA86ODzooTJ2kSbQhr3h+/xaMdP6YAiedXs+vRJcb4maQuocke/HAkKYBbZI6EHC5kBAf2aCs7kR93XQJUUvyHERWEip4guFcbpelkflH/r5nm/w3HI14iwV5GsBu1DnO1nMxPWL6A/4qEKL/RdFQSPUGwP0rTKfwMFJSMHobr0YbptY6InrCvOyMMoE2c2qQvLaPewNZ9N1p/FrYkeLHqr/nAFYx6L5ARbIxigaZGMCGyoBUvt2hJGE2ypNMTBJujqp+U3x8lgqvRvJ1KTxAUdVUM87iA99cepNMTBPkA1qKSe2rhlzkhSN2HJyEYUZbIBCeV+ECNM/+gvvzkyY8T7jiXdMO5hBs+Vl++z80FuvrS8yhIYgHXQLC6X1K1Vkrkp7wc3/DxmQR+STck8DvzsbpD37gwmHDph1mImyuOxLnfHC2/M8n8Em5I4PdCJMIQfuk16Am/hshsfnFM+D3piSx/kLXHSa5oiqNLT44Jv9sikWyQye+KxK91+5jxo3lM+vzax45fN3P9SUfereHhMeF3KPJw+5ny84bEr3nc+Fn9TP23cRz53W5L8zM9yWcl0A/HiJ+8/rZT+W0H+v1I1t8ZjCPjh8juUfpRFrJB3T8ifueef/vs5euXL589f/rBmXHyC+n39ERzEunl8cdx6r8zZ54+A+Bauwnqda/dAOD1c0xxbPzEYX/CL/2kB80rH79+f36RvioBgQqir2IxvWvg2bmx2Z+yfZ1eBJs6gLUx22f/C36ok7d5QE9skkH6OppnJ9V35OV3UBbnNEBWgg/NoDDHa1+/BR4LrFgdKa6LGfbBjvoXcvIT/i31/9KTXOcld7h8MAZ+pd2LwBaFcrdCoWmI6kApwnLyOykGhAau0zPs6DZuWbj7o/Mr7YC+H7CyOpG8NssBb1U35eO3K87Z0N2ZVHrMQfKEu698Wnn4lXZBveVvpkAvGnuH9n0FwZz8du6LQuSZ5jVzIMTRXbA7Kr9d4H0o7ZfUgB3Z/YS1QZxgPn6lQy61aBZ9Vi2Ym4EBg7rK5Z+H334L2UDaK+p1jGrZrTjBa9WwUIj9Sk5+vnn2KlP9MQU4ELVx1Ktfm1/p7T0Ey3JiAbYw+o3mqwHo10UWk1WJTZOc/ER4CRL3PeuYFd1msfl8VipAbX5YttjQ6kk7JpYLDJKJhYxyE7S5WEXDqB7KyU8sADtbPfC96qo4djsav33PMqyGlAtp+1vEENkt4PFZGp2h+fj54rOqIT5DAtRWClBdfnj4LDIjA/GCmnLmLrLv7dGNeMs7GIFf6bAjqpBnen8EkoeL7qsEjDa/A5IMBYOTBljhGDKIfq8gNoAj8BPeA83iyz6mSjyIgRC4Kgtbl98uZVMLsj1gr22FCBL9TtKtrVZ4oefj51cSGWRanwRSVRvoqiw0TX6l21SZmwG/mPlCd7R6iFhKxcdPLD+2+5B9/kGqaoofvkLD6/K7SNhAJ8hmQf146jisEYKRhZCHX+lQvInKzQyeMRALhqegoHsKDajJb5cuPOgMgvFrujF+hGDdiiyEXPwOXKmSnc4pcZpDz0Wup3CR9PiVdtjLe2xp/bmqzDJswFRReCsnD79dIb9g5t4fx2KgAZUmtia/Qy6EZfNsUEfsGFLITaqCWthVycHPNz7Z5qYGPeYi+Uff4xNUkx+3CtEg0H94qCoImV677cr78Mjr1kLPMQ+/i2WpjrleoUUSA90Te4DxPU5Nfk/YKRFrKOWa4Ydc74B23esAR1IVqNMLCbIc/HbE9KB7K3p1wqTCRHhW70Sb1ObHjTw5HRCPoEfeVYkqoSwzbDkW41d6EbyIUXN68gkqQt6tmITJN37YQJO0AqwI06EirUuSFV6M326oRoNulSKarOw/2pj3oslPPFmZieVnDqKGnKJdcP2VnvgBAV3pSUAlqKheMIw6SbryU6RxoqGfOo+GfiwGz9TAkY8YMNr8dv33G7qZO5syCD9RfcKMDqCu/vOVndVosLRE1JMMbNSv2I4JWfnN8n4R/VB64r+ekuyM6b9FYFWSMKgdWYHa9ouYlqi5BcoIoVoTSPml5FBSF1tKxEWKhJJ1+QXDp+f6+aBOrng2tYj7qWt/+g+ot4WqW6DTB62Q1hv2MGe7B7DOj9iBmvxKL4Q7SU+H56mBthI4Edj93C/EjwkYiFrYgoLILFdDL3WH3Bm0sMZAETtejx/2n0VbuV+SsCwPoLUVfrqa/HYGZE66gw5dfNHMQbTFjwJhA7sa8cM0x89/jzsdvnxFouXXx+HHE9JOevzw7zfxqu9UlOmWqO2H1WB1EHFTtPiVnogWirzjgqoI/+2rLfn5ascnDvewfFQfaEeeLElfRax4HX40OMfvL/KKmauSF2FYXSnIrB//BNWEXGCsKKSjCDEvU2v8/NlZ7A1IdAVuCf0rB5n144OHW0p+0GhsSYoCG2eR56LBr/RNsJWRvSutAhWhPSnILNrOEb/eb8UXH0RlbNxKetCOBeiz+ZXedn3tWrCAKzuUJOKxeMHkn59YAVeiETNU2doLZdBb/dgGSya/0qE/v5lqL1LfdFOy0og63s/PD/dDOtOE3SLbA4NySOSg5kH0rkx+WLYE3tVAK6qrAh1A/zgsahzk5ucTJEkF0PG6YOiEBSqeXbGbsvhhev60YOdiCr1ejVcz8J+U1fkmN7+TpdvAwVrecVsdMGhXYPiEA7SaF1URyFR+mJ7rm+70VIzue8OjiFby6Rzk5kdGEGv5vWavUosd7bDMbnxyZvGT6THNvl2QHp+hwYEnq7mPpWjO/AmyA2+j+LEVuv2g2n1P5xeix04wFKbHZWhwqBqvlt1S3vyQ0sn/A61a1I6xUPlWQnpIGj88HQKRDPs6O35pYOc9gpIzWE0cFshfevoSDKsQMRsbEmFjel+CbwvkL72VAm/sqHvRxcfAlqAbtFkFb5NOJ6Tln5H0s6ZXcWzbNqtu6xa49LxIft03/cDwYYo9v+ESBn2Lqjwn7P7Fp7n5ke+ffvvyIm0MXHr2nDDIy+/Mc9nwYUdCt0ekJwobSASxcfxtEX4k+fODD86d+0B0Pi+/l/IJb0av6JvVJPDCFHLTzpcXn8Z7cLT5u3jwXtmBsccmZ1YyjxZ4VZ96QBBaHnj5bvmdex2oBSKiqGjJXfRaDX78Xy5cYtnN2CQ9Sn7PQFuK3sBaf2yjR8BHsCnnVZHsxjDDo+P3LXgjuxyWQ88xFn3rkQJ8DXblugoQVa5hhlLq+JHwO4PZ9auydcCKOBR+aZUaGzEpQxm+Ac98SZOUnTkKP6I334TYQcgq4RV9p1oSbjKC7VCYD8/SIfjiORvEI+D3/DVohh0q5LAyhsXemJOGdUZwL1IdEdW8W3gQMcXx8WPnU/HQ/eCFq01CyIoo5qp1rQtegApLskh1M+RgXfvs+VjXH7Hn2lUrHN1ADqtDslHMn83ENmfoRkt4Wpjil+DgcPdkSeXj5uFXKpV2D19iclFf2LBqvAblqCZnMtY4wY4TdXeIS1BvAPDicId0sVSAH71t5/AJbr7nxEoZQJo+R5T6UcxNgQUxhM14pVWIHSCnPgTg4pPDnV3a3VIqP35+pcSu3MXUDgBoeFUj7gxDyx0c9eAx8FI/ICrYBEcL2RVvSNbJi9uHmOduOr/d3Z2dw9tPXuDrt5q9sqly9HGrLi/+ujGKM6uJdcGwUVVvLhCShlmt94YdUZM2BYN+o91zqyZJ7FVVp4CWUd/j1xYJc+bHwqroW7duJJb8IGlKeDQSilgQP5dU/GQXWYl1NyAy/dI/49d5SVi67j/+dlwUxIgWrQCNh67cED+0eURKIYGhP4Zgr+eoFs2owCNbDYoSv1t2BAv+OsQUW1VDuXiKcoPIqEgVl9/dzAxhcUWSE826A8fBkaxbqkoFVt6NVFFiaf2KLAubXrVmqcWgJjVkYBU6kJrcfAcaIRVzmyGKVI05NWSlCMUoK1qYnqqUdj/U1upR2ir6mFvfABHsNdqeW3FMUj0qhZtl2KbpVFyv1exGm1gt9lbUo8HC8ubVaAc502ZizTgeR1Fg5fKkp6UCmOOKqrPdhLKG0NxTXX5zfTpmpRpzi5vbsS47qjlqRYsuEmrLRd4U+s6xMLe4vroiyR03nmcgFey7snF9c215CmdkFhbm5nlp2FjVZ1FR8vI7N0zGDO5QNcOBKcgV+DTJyIKYi0sZaDNtcOVYrLZMrESkjMWLWI43RDtBrIakDKsCffShhneINUnKIB4omqDZPH7M+1JGvGnmGKqDNCywl2f0Tfo65SML0U4QQUxj/LsjU4HA4dc/qXCssMzpTbP9PBKWrvx6lLoa22PIWJlq/Kq03nu8x4j4f1LqryfW0VgBAAAAAElFTkSuQmCC">
+        </div>
+        <div class="escut">
+            <img id="Real Madrid CF" src="https://www.psv.nl/upload_mm/d/6/b/137318_fullimage_real-madrid-logo.png">
+        </div>
+        <div class="escut">
+            <img id="Atlético Madrid" src="https://logodownload.org/wp-content/uploads/2017/02/atletico-madrid-logo-0.png">
+        </div>
+        <div class="escut">
+            <img id="Sevilla FC"
+                src="https://sevillafc.es/sites/default/files/styles/history_other/public/history/entities/escudosuizo.jpg?itok=AE3TqaSO">
+        </div>
+        <div class="escut">
+            <img id="Real Sociedad" src="https://as01.epimg.net/img/comunes/fotos/fichas/equipos/large/16.png">
+        </div>
+        <div class="escut">
+            <img id="Real Betis"
+                src="https://t.resfu.com/img_data/shields_basket/55.png?v=5">
+        </div>
+        <div class="escut">
+            <img id="Athletic Club" src="https://irp.cdn-website.com/4999b82a/dms3rep/multi/5.png">
+        </div>
+        <div class="escut">
+            <img id="Villarreal CF"
+                src="https://lh3.googleusercontent.com/proxy/QtlzMb8AgwGNzCY46QTwEJSgi-q_Dyu-XyUwFZAbcx75tD_Y6OT8c98jCwVFwm5nk95js67UC0PXCSWSJMHdK1_utghowh6Bou3o-qY8THI5HvzeNnKBigQf5oaU7We1gM3TijC5hmU2a1dose7povZvncAX4mIWK_8">
+        </div>
+        <div class="escut">
+            <img id="Valencia CF"
+                src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Valenciacf.svg/800px-Valenciacf.svg.png">
+        </div>
+        <div class="escut">
+            <img id="RC Celta de Vigo" src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/85.png">
+        </div>
+        <div class="escut">
+            <img id="RCD Mallorca"
+                src="https://cdn-ukwest.onetrust.com/logos/7aa1a0b6-36f2-4e55-93ec-328aa31ceab4/0386423f-f19b-4510-93f4-83d2ae001732/1c3b4f7d-2144-4f02-9f3c-e4898f9eee90/Real_Club_Deportivo_Mallorca.png">
+        </div>
+        <div class="escut">
+            <img id="Girona FC"
+                src="https://stuyspec-media.s3.us-east-2.amazonaws.com/rewrite_media/386669e0-931b-11ee-9efc-f1bf138536c2.jpg">
+        </div>
+        <div class="escut">
+            <img id="CA Osasuna"
+                src="https://yt3.googleusercontent.com/2VmPHad6A8zFg3ln7DzgLD8HXPZaSbTWTNPSIF3LTKuIKjP-JscH0qlC04yJV8KbN0z_t-c-4aQ=s900-c-k-c0x00ffffff-no-rj">
+        </div>
+        <div class="escut">
+            <img id="Getafe CF"
+                src="https://assets.laliga.com/assets/2023/05/12/xlarge/dc59645c96bc2c9010341c16dd6d4bfa.png">
+        </div>
+        <div class="escut">
+            <img id="UD Las Palmas"
+                src="https://lh6.googleusercontent.com/proxy/ogcrvPHjqDMkgUlGBFfyf16f8EQ4iqZbCJ1UIrUHAw1MHTax_eijL7R4YZpJH6_rK22S67WnTXus29RUGQ9AjjhQqvu5aZmvmjdaN2MG53tjRB9ytrcRCF6G22Cv8gSne7rnASiEmOrhrtf_G_S-aAWg0Js_6ksELA3U">
+        </div>
+        <div class="escut">
+            <img id="RCD Espanyol" src="https://assets.laliga.com/assets/2019/06/07/xlarge/espanyol.png">
+        </div>
+        <div class="escut">
+            <img id="CD Leganés"
+                src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Club_Deportivo_Legan%C3%A9s_logo.svg/800px-Club_Deportivo_Legan%C3%A9s_logo.svg.png">
+        </div>
+        <div class="escut">
+            <img id="Real Valladolid CF"
+                src="https://assets.laliga.com/assets/2024/06/17/xlarge/1467dcd5efb813a742d86f8eb39504a3.png">
+        </div>
+        <div class="escut">
+            <img id="Rayo Vallecano"
+                src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Rayo_Vallecano_logo.svg/1200px-Rayo_Vallecano_logo.svg.png">
+        </div>
+        <div class="escut">
+            <img id="Deportivo Alavés"
+                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHhCQe3c9jh2xUoKgUA29y-1HhPJONt9r7kaeeXGnm_Ue8osOTEgWBdpaw5HWnqASpcB3QQzHBPKyWqcpSMYFdJ2zywpvXO5efRnNcfyH2a4v6dPkR7L0rNQT60QrWwYp96m4ctv3vlmA/d/Deportivo+Alaves.png">
+        </div>
+    </div>
+
+
+
+    <footer class="fEst">
+        <div class="imagen">
+            <img class="CEP" src="../IMG/59aa72b5-aa9f-4562-a573-c023f86433d5.png" alt="">
+        </div>
+        <div class="alta">
+            <a href="../HTML/alta.html">Donar d'alta</a>
+        </div>
+    </footer>
+
+    <script src="../JS/Main.js"></script>
+    <script src="../JS/equips.js"></script>
+</body>
+
+</html>

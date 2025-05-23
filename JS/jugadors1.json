@@ -1,0 +1,922 @@
+[
+    {
+        "equip": "FC Barcelona",
+        "escut": "data:image/png;base64,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",
+        "jugadors": [
+            {
+                "foto": "https://img.uefa.com/imgml/TP/players/3/2024/324x324/250007631.jpg",
+                "dorsal": 1,
+                "posicio": "Porter",
+                "qualitat": 90,
+                "nomPersona": "Marc-André ter Stegen"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t178/p593109/2048x2225/p593109_t178_2024_1_001_000.png",
+                "dorsal": 10,
+                "posicio": "Davanter",
+                "qualitat": 95,
+                "nomPersona": "Lamine Yamal"
+            },
+            {
+                "foto": "https://img.uefa.com/imgml/TP/players/1/2025/324x324/250176453.jpg",
+                "dorsal": 3,
+                "posicio": "Defensa",
+                "qualitat": 85,
+                "nomPersona": "Pau Cubarsí"
+            },
+            {
+                "foto": "https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/LEWANDOWSKI-min.jpg",
+                "dorsal": 7,
+                "posicio": "Davanter",
+                "qualitat": 94,
+                "nomPersona": "Robert Lewandowski"
+            },
+            {
+                "foto": "https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/DANI%20OLMO.jpg",
+                "dorsal": 5,
+                "posicio": "Migcampista",
+                "qualitat": 88,
+                "nomPersona": "Dani Olmo"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://img.a.transfermarkt.technology/portrait/big/67-1730118788.jpg?lm=1",
+            "nomPersona": "Hansi Flick",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Real Madrid CF",
+        "escut": "https://www.psv.nl/upload_mm/d/6/b/137318_fullimage_real-madrid-logo.png",
+        "jugadors": [
+            {
+                "foto": "https://img.uefa.com/imgml/TP/players/1/2025/324x324/250121533.jpg",
+                "dorsal": 9,
+                "posicio": "Davanter",
+                "qualitat": 89,
+                "nomPersona": "Vinicius Junior"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t186/p37055/1024x1024/p37055_t186_2024_1_003_000.png",
+                "dorsal": 19,
+                "posicio": "Migcampista",
+                "qualitat": 87,
+                "nomPersona": "Luka Modric"
+            },
+            {
+                "foto": "https://publish-p47754-e237306.adobeaemcloud.com/content/dam/portals/realmadrid-com/es-es/sports/football/3kq9cckrnlogidldtdie2fkbl/players/antonio-rudiger/assets/POSE_-21.png",
+                "dorsal": 4,
+                "posicio": "Defensa",
+                "qualitat": 88,
+                "nomPersona": "Antonio Rüdiger"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t186/p88483/2048x2048/p88483_t186_2024_1_002_000.jpg",
+                "dorsal": 17,
+                "posicio": "Defensa",
+                "qualitat": 85,
+                "nomPersona": "Dani Carvajal"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t186/p244855/2048x2048/p244855_t186_2024_1_002_000.jpg",
+                "dorsal": 8,
+                "posicio": "Migcampista",
+                "qualitat": 86,
+                "nomPersona": "Jude Bellingham"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://i.guim.co.uk/img/media/e6b07fe7bf033da67cfbce01402fccb468c84afc/0_522_7789_4672/master/7789.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=8b9526312446c0885cb52b50242e4ac1",
+            "nomPersona": "Carlo Ancelotti",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Atlético Madrid",
+        "escut": "https://logodownload.org/wp-content/uploads/2017/02/atletico-madrid-logo-0.png",
+        "jugadors": [
+            {
+                "foto": "https://img.uefa.com/imgml/TP/players/3/2024/324x324/250024456.jpg",
+                "dorsal": 10,
+                "posicio": "Davanter",
+                "qualitat": 84,
+                "nomPersona": "Alvaro Morata"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t175/p503523/2048x2048/p503523_t175_2024_1_002_000.jpg",
+                "dorsal": 21,
+                "posicio": "Migcampista",
+                "qualitat": 85,
+                "nomPersona": "Pablo Barrios"
+            },
+            {
+                "foto": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250063505.webp",
+                "dorsal": 18,
+                "posicio": "Defensa",
+                "qualitat": 83,
+                "nomPersona": "José María Giménez"
+            },
+            {
+                "foto": "https://img.uefa.com/imgml/TP/players/1/2025/cutoff/250019498.webp",
+                "dorsal": 11,
+                "posicio": "Davanter",
+                "qualitat": 80,
+                "nomPersona": "Antoine Griezman"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t175/p77390/2048x2048/p77390_t175_2024_1_002_000.jpg",
+                "dorsal": 20,
+                "posicio": "Migcampista",
+                "qualitat": 82,
+                "nomPersona": "Koke Resurrección"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://img.a.transfermarkt.technology/portrait/big/2868-1666861792.jpg?lm=1",
+            "nomPersona": "Diego Pablo Simeone",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Sevilla FC",
+        "escut": "https://sevillafc.es/sites/default/files/styles/history_other/public/history/entities/escudosuizo.jpg?itok=AE3TqaSO",
+        "jugadors": [
+            {
+                "foto": "https://sevillafc.es/sites/default/files/team_players/profiles/202411_Plantilla_Web_1000x1000_01_17.%20saul_niguez_E-FGA.jpg",
+                "dorsal": 6,
+                "posicio": "Migcampista",
+                "qualitat": 86,
+                "nomPersona": "Saúl Ñiguez"
+            },
+            {
+                "foto": "https://sevillafc.es/sites/default/files/team_players/profiles/202411_Plantilla_Web_1000x1000_01_7.%20Isaac.jpg",
+                "dorsal": 7,
+                "posicio": "Davanter",
+                "qualitat": 87,
+                "nomPersona": "Isaac Romero"
+            },
+            {
+                "foto": "https://sevillafc.es/sites/default/files/team_players/profiles/202411_Plantilla_Web_1000x1000_01_6.%20nemanja_gudelj_E-FGA.jpg",
+                "dorsal": 8,
+                "posicio": "Migcampista",
+                "qualitat": 85,
+                "nomPersona": "Nemanja Gudelj"
+            },
+            {
+                "foto": "https://sevillafc.es/sites/default/files/team_players/profiles/202411_Plantilla_Web_1000x1000_01_20.%20Sow.jpg",
+                "dorsal": 14,
+                "posicio": "Migcampista",
+                "qualitat": 84,
+                "nomPersona": "Djibril Sow"
+            },
+            {
+                "foto": "https://img.a.transfermarkt.technology/portrait/big/73517-1532082757.jpg?lm=1",
+                "dorsal": 13,
+                "posicio": "Porter",
+                "qualitat": 88,
+                "nomPersona": "Orjan Dyland"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://sevillafc.es/sites/default/files/styles/large/public/history/people/GarciaPimienta.png?itok=JJe6AysL",
+            "nomPersona": "García Pimienta",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Real Sociedad",
+        "escut": "https://as01.epimg.net/img/comunes/fotos/fichas/equipos/large/16.png",
+        "jugadors": [
+            {
+                "foto": "https://cdn.realsociedad.eus//Uploads/jugadores/_2_oyarzabal.png",
+                "dorsal": 23,
+                "posicio": "Davanter",
+                "qualitat": 83,
+                "nomPersona": "Mikel Oyarzabal"
+            },
+            {
+                "foto": "https://cdn.realsociedad.eus//Uploads/jugadores/_0_brais-m%C3%A9ndez.png",
+                "dorsal": 16,
+                "posicio": "Migcampista",
+                "qualitat": 84,
+                "nomPersona": "Brais Méndez"
+            },
+            {
+                "foto": "https://cdn.realsociedad.eus//Uploads/jugadores/_2_take-kubo.png",
+                "dorsal": 9,
+                "posicio": "Davanter",
+                "qualitat": 82,
+                "nomPersona": "Take Kubo"
+            },
+            {
+                "foto": "https://cdn.realsociedad.eus//Uploads/jugadores/_0_zubimendi.png",
+                "dorsal": 15,
+                "posicio": "Migcampista",
+                "qualitat": 83,
+                "nomPersona": "Martín Zubimendi"
+            },
+            {
+                "foto": "https://cdn.realsociedad.eus//Uploads/jugadores/becker.png",
+                "dorsal": 22,
+                "posicio": "Davanter",
+                "qualitat": 81,
+                "nomPersona": "Sheraldo Becker"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://cdn.realsociedad.eus//Uploads/jugadores/_5_imanol-alguacil.png",
+            "nomPersona": "Imanol Alguacil",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Real Betis",
+        "escut": "https://thumb2.besoccerapps.com/rbetis/img_news/old_img_news_betis/LOGO_betis1.jpg",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t185/p500745/1024x1113/p500745_t185_2024_1_001_000.png",
+                "dorsal": 19,
+                "posicio": "Davanter",
+                "qualitat": 82,
+                "nomPersona": "Ez Abde"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t185/p81138/1024x1113/p81138_t185_2024_1_001_000.png",
+                "dorsal": 3,
+                "posicio": "Defensa",
+                "qualitat": 83,
+                "nomPersona": "Marc Bartra"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t185/p98745/2048x2225/p98745_t185_2024_1_001_000.png",
+                "dorsal": 5,
+                "posicio": "Defensa",
+                "qualitat": 85,
+                "nomPersona": "Héctor Bellerín"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t185/p149915/1024x1113/p149915_t185_2024_1_001_000.png",
+                "dorsal": 12,
+                "posicio": "Defensa",
+                "qualitat": 84,
+                "nomPersona": "Diego Llorente"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t185/p69305/256x278/p69305_t185_2024_1_001_000.png",
+                "dorsal": 2,
+                "posicio": "Defensa",
+                "qualitat": 82,
+                "nomPersona": "Ricardo Rodríguez"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://m.media-amazon.com/images/M/MV5BMTZlZjQyZjEtMTc4OC00NjIxLWFkNjQtZjQyOTE3YWI5MTkyXkEyXkFqcGc@._V1_.jpg",
+            "nomPersona": "Manuel Pellegrini",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Athletic Club",
+        "escut": "https://irp.cdn-website.com/4999b82a/dms3rep/multi/5.png",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t174/p439772/2048x2048/p439772_t174_2024_1_002_000.jpg",
+                "dorsal": 14,
+                "posicio": "Migcampista",
+                "qualitat": 85,
+                "nomPersona": "Oihan Sancet"
+            },
+            {
+                "foto": "https://assets.sorare.com/playerpicture/53d8b819-3229-431f-a1a7-0ef197182230/picture/squared-a32a49ae553c3b1e889a21e2c38efc51.png",
+                "dorsal": 21,
+                "posicio": "Migcampista",
+                "qualitat": 82,
+                "nomPersona": "Ander Herrera"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t174/p197334/2048x2048/p197334_t174_2024_1_002_000.jpg",
+                "dorsal": 18,
+                "posicio": "Davanter",
+                "qualitat": 84,
+                "nomPersona": "Iñaki Williams"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t174/p470506/1024x1113/p470506_t174_2024_1_001_000.png",
+                "dorsal": 4,
+                "posicio": "Migcampista",
+                "qualitat": 81,
+                "nomPersona": "Beñat Prados"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t174/p523654/1024x1113/p523654_t174_2024_1_001_000.png",
+                "dorsal": 20,
+                "posicio": "Davanter",
+                "qualitat": 83,
+                "nomPersona": "Nico Williams"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://img.a.transfermarkt.technology/portrait/big/1559-1502879607.jpg?lm=1",
+            "nomPersona": "Ernesto Valverde",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Villarreal CF",
+        "escut": "https://lh3.googleusercontent.com/proxy/QtlzMb8AgwGNzCY46QTwEJSgi-q_Dyu-XyUwFZAbcx75tD_Y6OT8c98jCwVFwm5nk95js67UC0PXCSWSJMHdK1_utghowh6Bou3o-qY8THI5HvzeNnKBigQf5oaU7We1gM3TijC5hmU2a1dose7povZvncAX4mIWK_8",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t449/p18003/2048x2048/p18003_t449_2024_1_002_000.jpg",
+                "dorsal": 11,
+                "posicio": "Defensa",
+                "qualitat": 80,
+                "nomPersona": "Raúl Albiol"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t449/p248501/1024x1113/p248501_t449_2024_1_001_000.png",
+                "dorsal": 24,
+                "posicio": "Migcampista",
+                "qualitat": 79,
+                "nomPersona": "Álex Baena"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t449/p439597/2048x2048/p439597_t449_2024_1_002_000.jpg",
+                "dorsal": 13,
+                "posicio": "Porter",
+                "qualitat": 77,
+                "nomPersona": "Diego Conde"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t449/p445956/2048x2048/p445956_t449_2024_1_002_000.jpg",
+                "dorsal": 25,
+                "posicio": "Defensa",
+                "qualitat": 78,
+                "nomPersona": "Logan Costa"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t449/p51952/2048x2048/p51952_t449_2024_1_002_000.jpg",
+                "dorsal": 12,
+                "posicio": "Migcampista",
+                "qualitat": 76,
+                "nomPersona": "Dani Parejo"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://pbs.twimg.com/profile_images/1366789482159161345/ZLvUg179_400x400.jpg",
+            "nomPersona": "Marcelino García Toral",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Valencia CF",
+        "escut": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Valenciacf.svg/800px-Valenciacf.svg.png",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t191/p439716/1024x1113/p439716_t191_2024_1_001_000.png",
+                "dorsal": 2,
+                "posicio": "Davanter",
+                "qualitat": 75,
+                "nomPersona": "Hugo Duro"
+            },
+            {
+                "foto": "https://www.valenciacf.com/public/Image/2024/9/diegolopez.png",
+                "dorsal": 5,
+                "posicio": "Davanter",
+                "qualitat": 74,
+                "nomPersona": "Diego López"
+            },
+            {
+                "foto": "https://www.valenciacf.com/public/Image/2024/8/javiguerra.png",
+                "dorsal": 6,
+                "posicio": "Migcampista",
+                "qualitat": 72,
+                "nomPersona": "Javi Guerra"
+            },
+            {
+                "foto": "https://www.valenciacf.com/public/Image/2024/8/1724404975gaya.png",
+                "dorsal": 1,
+                "posicio": "Defensa",
+                "qualitat": 73,
+                "nomPersona": "José Gayà"
+            },
+            {
+                "foto": "https://www.valenciacf.com/public/Image/2024/8/mamardashweb.png",
+                "dorsal": 3,
+                "posicio": "Porter",
+                "qualitat": 80,
+                "nomPersona": "Giorgi Mamardashvili"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://imagenes.20minutos.es/files/image_990_556/files/fp/uploads/imagenes/2024/12/03/ruben-baraja-entrenador-del-valencia.r_d.946-527.jpeg",
+            "nomPersona": "Rubén Baraja",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "RC Celta de Vigo",
+        "escut": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/85.png",
+        "jugadors": [
+            {
+                "foto": "https://rccelta.es/app/uploads/2024/08/RC_Celta_Marcos_Alonso_18-removebg-preview-e1726150601481.png",
+                "dorsal": 22,
+                "posicio": "Defensa",
+                "qualitat": 85,
+                "nomPersona": "Marcos Alonso"
+            },
+            {
+                "foto": "https://rccelta.es/app/uploads/2022/08/RC_CELTA_24_25__Mingueza_01-removebg-preview-e1724065935648.png",
+                "dorsal": 15,
+                "posicio": "Defensa",
+                "qualitat": 84,
+                "nomPersona": "Óscar Mingueza"
+            },
+            {
+                "foto": "https://rccelta.es/app/uploads/2020/05/RC_CELTA_24_25__Iago_Aspas_01-removebg-preview-e1724071291969.png",
+                "dorsal": 17,
+                "posicio": "Davanter",
+                "qualitat": 86,
+                "nomPersona": "Iago Aspas"
+            },
+            {
+                "foto": "https://rccelta.es/app/uploads/2022/08/RC_CELTA_24_25__de_la_Torre_01-removebg-preview-1.png",
+                "dorsal": 18,
+                "posicio": "Migcampista",
+                "qualitat": 84,
+                "nomPersona": "Luca de la Torre"
+            },
+            {
+                "foto": "https://rccelta.es/app/uploads/2024/08/RC_CELTA_24_25__Ilaix_01-removebg-preview-e1724068858176.png",
+                "dorsal": 10,
+                "posicio": "Migcampista",
+                "qualitat": 85,
+                "nomPersona": "Ilaix Moriba"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://assets.laliga.com/squad/2024/t176/man61996/2048x2225/man61996_t176_2024_1_001_000.png",
+            "nomPersona": "Claudio Giráldez",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "RCD Mallorca",
+        "escut": "https://cdn-ukwest.onetrust.com/logos/7aa1a0b6-36f2-4e55-93ec-328aa31ceab4/0386423f-f19b-4510-93f4-83d2ae001732/1c3b4f7d-2144-4f02-9f3c-e4898f9eee90/Real_Club_Deportivo_Mallorca.png",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t181/p485385/1024x1113/p485385_t181_2024_1_001_000.png",
+                "dorsal": 19,
+                "posicio": "Migcampista",
+                "qualitat": 83,
+                "nomPersona": "Samu Costa"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t181/p169007/2048x2048/p169007_t181_2024_1_002_000.jpg",
+                "dorsal": 14,
+                "posicio": "Migcampista",
+                "qualitat": 82,
+                "nomPersona": "Sergi Darder"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t181/p156293/2048x2048/p156293_t181_2024_1_002_000.jpg",
+                "dorsal": 9,
+                "posicio": "Davanter",
+                "qualitat": 82,
+                "nomPersona": "Vedat Muriqui"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t181/p185126/2048x2048/p185126_t181_2024_1_002_000.jpg",
+                "dorsal": 11,
+                "posicio": "Davanter",
+                "qualitat": 80,
+                "nomPersona": "Cyle Larin"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t181/p92187/1024x1024/p92187_t181_2024_1_003_000.png",
+                "dorsal": 7,
+                "posicio": "Davanter",
+                "qualitat": 81,
+                "nomPersona": "Abdón Prats"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://www.footballdatabase.eu/images/photos/players/2022-2023/a_203/203635.jpg",
+            "nomPersona": "Jagoba Arrasate",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Girona FC",
+        "escut": "https://stuyspec-media.s3.us-east-2.amazonaws.com/rewrite_media/386669e0-931b-11ee-9efc-f1bf138536c2.jpg",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t2893/p227165/2048x2048/p227165_t2893_2024_1_003_000.png",
+                "dorsal": 8,
+                "posicio": "Davanter",
+                "qualitat": 79,
+                "nomPersona": "Abel Ruíz"
+            },
+            {
+                "foto": "https://statics-maker.llt-services.com/gir/images/2024/08/14/original/30a5680b-f84e-4665-8f66-2007beb8f725-563.png",
+                "dorsal": 16,
+                "posicio": "Migcampista",
+                "qualitat": 76,
+                "nomPersona": "Oriol Romeu"
+            },
+            {
+                "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkI3j4ydIvtA4R0zXqemlkT2c3ceasWZRUpg&s",
+                "dorsal": 3,
+                "posicio": "Defensa",
+                "qualitat": 78,
+                "nomPersona": "Miguel Gutiérrez"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t2893/p49464/1024x1113/p49464_t2893_2024_1_001_000.png",
+                "dorsal": 4,
+                "posicio": "Davanter",
+                "qualitat": 75,
+                "nomPersona": "Cristhian Stuani"
+            },
+            {
+                "foto": "https://statics-maker.llt-services.com/gir/images/2024/08/14/original/688b022c-5835-48a6-ae28-15d1c5588c72-237.png",
+                "dorsal": 2,
+                "posicio": "Defensa",
+                "qualitat": 77,
+                "nomPersona": "Daley Blind"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://sdmedia.playser.cadenaser.com/playser/image/20238/05/1691187272303_1691187328_square_img.png",
+            "nomPersona": "Míchel Sánchez",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "CA Osasuna",
+        "escut": "https://yt3.googleusercontent.com/2VmPHad6A8zFg3ln7DzgLD8HXPZaSbTWTNPSIF3LTKuIKjP-JscH0qlC04yJV8KbN0z_t-c-4aQ=s900-c-k-c0x00ffffff-no-rj",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t450/p484702/1024x1024/p484702_t450_2024_1_003_000.png",
+                "dorsal": 21,
+                "posicio": "Migcampista",
+                "qualitat": 88,
+                "nomPersona": "Aimar Oroz"
+            },
+            {
+                "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJHBjV6lg2u41lyyc606fuYFueSH7QaLN1PA&s",
+                "dorsal": 11,
+                "posicio": "Davanter",
+                "qualitat": 85,
+                "nomPersona": "Ante Budimir"
+            },
+            {
+                "foto": "https://www.osasuna.es/_next/image?url=https%3A%2F%2Fd2rykoxgbnupm8.cloudfront.net%2Fplayers%2F4b20c28b66304df65685fa47295ba175.png&w=1080&q=75",
+                "dorsal": 6,
+                "posicio": "Defensa",
+                "qualitat": 86,
+                "nomPersona": "Nacho Vidal"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t450/p522601/2048x2048/p522601_t450_2024_1_002_000.jpg",
+                "dorsal": 7,
+                "posicio": "Davanter",
+                "qualitat": 84,
+                "nomPersona": "Bryan Zaragoza"
+            },
+            {
+                "foto": "https://www.osasuna.es/_next/image?url=https%3A%2F%2Fd2rykoxgbnupm8.cloudfront.net%2Fplayers%2F223171c698c7c37973abf7a02359d336.png&w=1080&q=75",
+                "dorsal": 5,
+                "posicio": "Defensa",
+                "qualitat": 85,
+                "nomPersona": "Juan Cruz"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSULp3Vuu2hYN276UEISHF9IiH2bh4Di-zUDw&s",
+            "nomPersona": "Vicente Moreno",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Getafe CF",
+        "escut": "https://assets.laliga.com/assets/2023/05/12/xlarge/dc59645c96bc2c9010341c16dd6d4bfa.png",
+        "jugadors": [
+            {
+                "foto": "https://statics-maker.llt-services.com/get/images/2024/10/18/xlarge/b5f4da37-58d9-4df9-914c-14caa86508a8-154.png",
+                "dorsal": 10,
+                "posicio": "Migcampista",
+                "qualitat": 83,
+                "nomPersona": "Luis Milla"
+            },
+            {
+                "foto": "https://media.futbolfantasy.com/thumb/400x400/v202502091337/uploads/images/jugadores/ficha/13780.png",
+                "dorsal": 2,
+                "posicio": "Migcampista",
+                "qualitat": 81,
+                "nomPersona": "Christantus Uche"
+            },
+            {
+                "foto": "https://cdn.resfu.com/img_data/players/medium/275862.jpg?size=340x&lossy=1",
+                "dorsal": 13,
+                "posicio": "Migcampista",
+                "qualitat": 82,
+                "nomPersona": "Carles Aleñá"
+            },
+            {
+                "foto": "https://statics-maker.llt-services.com/get/images/2024/10/18/xsmall-wp/cb8f9ce5-9497-414c-98ee-3ebe2fbff0b6-416.webp",
+                "dorsal": 18,
+                "posicio": "Migcampista",
+                "qualitat": 80,
+                "nomPersona": "Mauro Arambarri"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t1450/p477406/2048x2048/p477406_t1450_2024_1_002_000.jpg",
+                "dorsal": 20,
+                "posicio": "Migcampista",
+                "qualitat": 82,
+                "nomPersona": "Álex Sola"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://interstardeporte.com/wp-content/uploads/2019/11/pepe-bordalas-1.png",
+            "nomPersona": "José Bordalás",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "UD Las Palmas",
+        "escut": "https://lh6.googleusercontent.com/proxy/ogcrvPHjqDMkgUlGBFfyf16f8EQ4iqZbCJ1UIrUHAw1MHTax_eijL7R4YZpJH6_rK22S67WnTXus29RUGQ9AjjhQqvu5aZmvmjdaN2MG53tjRB9ytrcRCF6G22Cv8gSne7rnASiEmOrhrtf_G_S-aAWg0Js_6ksELA3U",
+        "jugadors": [
+            {
+                "foto": "https://statics-maker.llt-services.com/lpa/images/2024/08/14/original/be0a14f7-e5ba-4145-909e-d1898c8083e0-946.png",
+                "dorsal": 23,
+                "posicio": "Porter",
+                "qualitat": 79,
+                "nomPersona": "Peter Cillessen"
+            },
+            {
+                "foto": "https://statics-maker.llt-services.com/lpa/images/2024/08/14/original/9ea8c8ac-192a-414e-a920-5055b2d1f6e3-992.png",
+                "dorsal": 15,
+                "posicio": "Migcampista",
+                "qualitat": 81,
+                "nomPersona": "Javi Muñoz"
+            },
+            {
+                "foto": "https://statics-maker.llt-services.com/lpa/images/2024/08/14/original/9ea8c8ac-192a-414e-a920-5055b2d1f6e3-992.png",
+                "dorsal": 9,
+                "posicio": "Davanter",
+                "qualitat": 85,
+                "nomPersona": "Sandro Ramírez"
+            },
+            {
+                "foto": "https://statics-maker.llt-services.com/lpa/images/2024/08/14/xlarge/5858c903-7ff1-49cb-977c-67235ae80491-887.png",
+                "dorsal": 8,
+                "posicio": "Migcampista",
+                "qualitat": 82,
+                "nomPersona": "Alberto Moleiro"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t407/p109270/2048x2048/p109270_t407_2024_1_002_000.jpg",
+                "dorsal": 17,
+                "posicio": "Davanter",
+                "qualitat": 92,
+                "nomPersona": "Jaime Mata"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://killerasturias.com/drimage/920/0/10395/-/sites/default/files/2023-12/Luis%20Carri%C3%B3n.png",
+            "nomPersona": "Luis Carrión",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "RCD Espanyol",
+        "escut": "https://www.rcdespanyol.com/assets/images/sections/club/badges/2015--....jpg",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t177/p175090/1024x1024/p175090_t177_2024_1_003_000.png",
+                "dorsal": 8,
+                "posicio": "Davanter",
+                "qualitat": 78,
+                "nomPersona": "Pere Milla"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t177/p485221/2048x2048/p485221_t177_2024_1_002_000.jpg",
+                "dorsal": 14,
+                "posicio": "Migcampista",
+                "qualitat": 79,
+                "nomPersona": "José Gragera"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t177/p442291/1024x1024/p442291_t177_2024_1_003_000.png",
+                "dorsal": 27,
+                "posicio": "Migcampista",
+                "qualitat": 78,
+                "nomPersona": "Álvaro Aguado"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t177/p431434/2048x2048/p431434_t177_2024_1_002_000.jpg",
+                "dorsal": 22,
+                "posicio": "Davanter",
+                "qualitat": 82,
+                "nomPersona": "Javier Puado"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t177/p64662/2048x2048/p64662_t177_2024_1_002_000.jpg",
+                "dorsal": 2,
+                "posicio": "Defensa",
+                "qualitat": 81,
+                "nomPersona": "Leandro Cabrera"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://www.rcdespanyol.com/uploads/_images/employee/3568/resized/113162_backendGallery.png",
+            "nomPersona": "Manolo González",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "CD Leganés",
+        "escut": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Club_Deportivo_Legan%C3%A9s_logo.svg/800px-Club_Deportivo_Legan%C3%A9s_logo.svg.png",
+        "jugadors": [
+            {
+                "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXAjmDKYr2LriQfwF9evUU9zsnZ2pUYbjRCw&s",
+                "dorsal": 14,
+                "posicio": "Defensa",
+                "qualitat": 77,
+                "nomPersona": "Javi Hernández"
+            },
+            {
+                "foto": "https://statics-maker.llt-services.com/leg/images/2024/09/04/xlarge/dcaaf953-d629-4923-b056-402520e717d3-631.png",
+                "dorsal": 22,
+                "posicio": "Defensa",
+                "qualitat": 78,
+                "nomPersona": "Sergio González"
+            },
+            {
+                "foto": "https://media.futbolfantasy.com/thumb/400x400/v202502120342/uploads/images/jugadores/ficha/6671.png",
+                "dorsal": 5,
+                "posicio": "Defensa",
+                "qualitat": 76,
+                "nomPersona": "Jorge Sáez"
+            },
+            {
+                "foto": "https://statics-maker.llt-services.com/leg/images/2024/09/04/original/b79acae7-8437-4a47-9e21-7770d879c7e9-435.png",
+                "dorsal": 12,
+                "posicio": "Defensa",
+                "qualitat": 77,
+                "nomPersona": "Enric Franquesa"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t957/p94618/2048x2048/p94618_t957_2024_1_002_000.jpg",
+                "dorsal": 13,
+                "posicio": "Porter",
+                "qualitat": 79,
+                "nomPersona": "Marko Dmitrovic"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://upload.wikimedia.org/wikipedia/commons/0/02/Borja_Jim%C3%A9nez.jpg",
+            "nomPersona": "Borja Jiménez",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Real Valladolid CF",
+        "escut": "https://assets.laliga.com/assets/2024/06/17/xlarge/1467dcd5efb813a742d86f8eb39504a3.png",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t192/p465701/1024x1113/p465701_t192_2024_1_001_000.png",
+                "dorsal": 18,
+                "posicio": "Migcampista",
+                "qualitat": 76,
+                "nomPersona": "Raúl Moro"
+            },
+            {
+                "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0DMWs1TRr5P0GJIqp0EPVbPK3Kj6e-QyXHg&s",
+                "dorsal": 20,
+                "posicio": "Migcampista",
+                "qualitat": 75,
+                "nomPersona": "Mario Martín"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t192/p448179/1024x1024/p448179_t192_2024_1_003_000.png",
+                "dorsal": 21,
+                "posicio": "Davanter",
+                "qualitat": 82,
+                "nomPersona": "Juanmi Latasa"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t192/p587672/2048x2225/p587672_t192_2024_1_001_000.png",
+                "dorsal": 25,
+                "posicio": "Defensa",
+                "qualitat": 81,
+                "nomPersona": "David Torres"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t192/p421294/1024x1024/p421294_t192_2024_1_003_000.png",
+                "dorsal": 7,
+                "posicio": "Davanter",
+                "qualitat": 85,
+                "nomPersona": "Marcos André"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0317%2Fr1306419_1296x729_16%2D9.jpg",
+            "nomPersona": "Paulo Pezzolano",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Rayo Vallecano",
+        "escut": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Rayo_Vallecano_logo.svg/1200px-Rayo_Vallecano_logo.svg.png",
+        "jugadors": [
+            {
+                "foto": "https://statics-maker.llt-services.com/ray/images/2024/09/23/xlarge/43aa60f6-4dd5-4ea1-b4b3-fdd19f1d312e-563.jpg",
+                "dorsal": 19,
+                "posicio": "Migcampista",
+                "qualitat": 79,
+                "nomPersona": "James Rodríguez"
+            },
+            {
+                "foto": "https://statics-maker.llt-services.com/ray/images/2024/08/19/xsmall-wp/e550ee1c-0d9a-47b3-a744-08cc90e0439d-191.webp",
+                "dorsal": 10,
+                "posicio": "Migcampista",
+                "qualitat": 84,
+                "nomPersona": "Isaac Palazón"
+            },
+            {
+                "foto": "https://statics-maker.llt-services.com/ray/images/2024/08/19/original/e115641b-96af-45f0-8110-068e73e3cb53-960.jpg",
+                "dorsal": 3,
+                "posicio": "Migcampista",
+                "qualitat": 85,
+                "nomPersona": "Unai López"
+            },
+            {
+                "foto": "https://statics-maker.llt-services.com/ray/images/2024/08/19/original/e66832ce-4a15-44b8-9cc7-27d0afa6c1ce-580.jpg",
+                "dorsal": 16,
+                "posicio": "Migcampista",
+                "qualitat": 80,
+                "nomPersona": "Óscar Trejo"
+            },
+            {
+                "foto": "https://media.futbolfantasy.com/thumb/400x400/v202502110216/uploads/images/jugadores/ficha/12651.png",
+                "dorsal": 12,
+                "posicio": "Porter",
+                "qualitat": 82,
+                "nomPersona": "Augusto Batalla"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Francisco_Javier_Rodr%C3%ADguez_V%C3%ADlchez_-_01.jpg",
+            "nomPersona": "Francisco Rodríguez",
+            "esSeleccionador": 0
+        }
+    },
+    {
+        "equip": "Deportivo Alavés",
+        "escut": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHhCQe3c9jh2xUoKgUA29y-1HhPJONt9r7kaeeXGnm_Ue8osOTEgWBdpaw5HWnqASpcB3QQzHBPKyWqcpSMYFdJ2zywpvXO5efRnNcfyH2a4v6dPkR7L0rNQT60QrWwYp96m4ctv3vlmA/d/Deportivo+Alaves.png",
+        "jugadors": [
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t173/p212770/2048x2048/p212770_t173_2024_1_002_000.jpg",
+                "dorsal": 30,
+                "posicio": "Davanter",
+                "qualitat": 80,
+                "nomPersona": "Asier Villalibre"
+            },
+            {
+                "foto": "https://cdn.realsociedad.eus//Uploads/jugadores/guridi-eb.png",
+                "dorsal": 29,
+                "posicio": "Migcampista",
+                "qualitat": 79,
+                "nomPersona": "Jon Guridi"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t173/p465494/2048x2048/p465494_t173_2024_1_002_000.jpg",
+                "dorsal": 6,
+                "posicio": "Defensa",
+                "qualitat": 83,
+                "nomPersona": "Manu Sánchez"
+            },
+            {
+                "foto": "https://media.futbolfantasy.com/thumb/400x400/v202501131941/uploads/images/jugadores/ficha/7785.png",
+                "dorsal": 11,
+                "posicio": "Migcampista",
+                "qualitat": 78,
+                "nomPersona": "Luka Romero"
+            },
+            {
+                "foto": "https://assets.laliga.com/squad/2024/t173/p61597/2048x2048/p61597_t173_2024_1_002_000.jpg",
+                "dorsal": 24,
+                "posicio": "Davanter",
+                "qualitat": 80,
+                "nomPersona": "Kike García"
+            }
+        ],
+        "entrenador": {
+            "foto": "https://image.ondacero.es/clipping/cmsimages01/2024/05/14/7A25F61D-3DA2-44F7-921F-DD4F5C881508/garcia-plaza-real-madrid-esta-haciendo-equipo-dominar-liga-muchos-anos_98.jpg?crop=4000,2251,x0,y111&width=1900&height=1069&optimize=high&format=webply",
+            "nomPersona": "Luis García Plaza",
+            "esSeleccionador": 0
+        }
+    }
+]
